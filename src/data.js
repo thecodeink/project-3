@@ -22,7 +22,7 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 6,
     firstAired: 2002,
-    img: 'https://static.wikia.nocookie.net/best-tv-shows/images/1/11/Kids_next_door.jpg/revision/latest?cb=20210916091715'
+    img: 'https://m.media-amazon.com/images/M/MV5BMTdkNmY4ZGMtZTk3YS00OWUxLTlmNTktZTAxNTg1MWM2YmM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'SpongeBob SquarePants',
