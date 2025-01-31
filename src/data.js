@@ -122,5 +122,3 @@ const shows = [
     img: 'https://upload.wikimedia.org/wikipedia/en/7/7b/Powerpuff_girls_characters.jpg'
   }
 ]
-
-export default data
