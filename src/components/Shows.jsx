@@ -1,9 +1,8 @@
-const Shows = () => {
+const Shows = (props) => {
   return (
     <li className="show">
       <div className="show-info">
-        <h3></h3>
-        <h5></h5>
+        <img src="{props.img}" alt="themed picture of {props.title}" />
       </div>
     </li>
   )
