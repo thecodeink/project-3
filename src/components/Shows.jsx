@@ -1,14 +1,13 @@
 const Shows = ({ show }) => {
   return (
-    <li className="show">
+    <ol className="show">
+      <img className="image-photo" src={show.img} alt="" />
       <div className="show-info">
         <h5>{show.title}</h5>
-        <h5>Abbreviation: {show.abbreviation}</h5>
         <h5>First Aired: {show.firstAired}</h5>
         <h5>Seasons: {show.seasons}</h5>
-        <img className="image-photo" src={show.img} alt="" />
       </div>
-    </li>
+    </ol>
   )
 }
 

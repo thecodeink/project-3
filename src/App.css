@@ -12,3 +12,14 @@ body {
 .image-photo {
   width: 200px;
 }
+
+.title {
+  font-family: monospace;
+}
+
+.show {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
