@@ -13,8 +13,11 @@ body {
   width: 200px;
 }
 
-.title {
+.title-container {
   font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .show {

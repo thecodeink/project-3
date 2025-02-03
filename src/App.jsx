@@ -7,7 +7,9 @@ const App = () => {
   return (
     <div className="flex-row">
       <Nav />
-      <h1 className="title">My Top Fav 25 Cartoon Shows</h1>
+      <div className="title-container">
+        <h1 className="title">My Top Fav 25 Cartoon Shows</h1>
+      </div>
       <MainContent />
     </div>
   )

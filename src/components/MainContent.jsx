@@ -5,11 +5,10 @@ const MainContent = () => {
   console.log(shows)
   return (
     <div className="main">
-      <ul>
-        {shows.map((show, index) => (
-          <Shows key={index} show={show} />
-        ))}
-      </ul>
+      <h1>My Top Fav 25 Cartoon Shows</h1>
+      {shows.map((show, index) => (
+        <Shows key={index} show={show} />
+      ))}
     </div>
   )
 }
