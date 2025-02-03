@@ -1,7 +1,11 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: aqua;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 50px 1fr 50px;
 }
 
 .flex-row {
@@ -23,6 +27,7 @@ body {
 .show {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
   gap: 10px;
   padding: 10px;
 }
@@ -36,9 +41,24 @@ body {
 
 .nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+}
+
+.catorgories {
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 50px;
-  background-color: #f03f3c;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 20px; /* Adds space between grid items */
+  padding: 20px;
+  justify-content: center;
 }
