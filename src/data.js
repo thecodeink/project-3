@@ -1,7 +1,6 @@
 const shows = [
   {
     title: 'Codename: The Kids Next Door',
-    abbreviation: 'KND',
     mainCharacters: [
       { name: 'Nigel Uno', nickname: 'Numbuh 1', voiceOver: 'Benjamin Diskin' },
       {
@@ -26,7 +25,6 @@ const shows = [
   },
   {
     title: 'SpongeBob SquarePants',
-    abbreviation: 'SBSP',
     mainCharacters: [
       { name: 'SpongeBob SquarePants', voiceBy: 'Tom Kenny' },
       { name: 'Patrick Star', voiceBy: 'Bill Fagerbakke' },
@@ -45,7 +43,6 @@ const shows = [
   },
   {
     title: 'Ed, Edd n Eddy',
-    abbreviation: 'EEE',
     mainCharacters: [
       { name: 'Ed', voiceBy: 'Matt Hill' },
       { name: 'Edd (Double D)', voiceBy: 'Samuel Vincent' },
@@ -60,17 +57,16 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 6,
     firstAired: 1999,
-    img: 'https://upload.wikimedia.org/wikipedia/en/1/12/Ed%2C_Edd_n_Eddy_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BOWNmY2Y0MDUtMmM4Zi00NGEzLWI1MjEtMDUzYmM2MzFjNTU2XkEyXkFqcGc@._V1_.jpg'
   },
   {
     title: 'Courage the Cowardly Dog',
-    abbreviation: 'CTCD',
     mainCharacters: [
       { name: 'Courage', voiceBy: 'Marty Grabstein' },
       { name: 'Muriel Bagge', voiceBy: 'Thea White' },
       {
         name: 'Eustace Bagge',
-        voiceBy: 'Lionel Wilson (Seasons 1-3), Arthur Anderson (Season 4)'
+        voiceBy: 'Arthur Anderson'
       }
     ],
     genre: ['horror', 'comedy', 'surrealism'],
@@ -79,11 +75,10 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 4,
     firstAired: 1999,
-    img: 'https://upload.wikimedia.org/wikipedia/en/8/8f/Courage_the_Cowardly_Dog_titlecard.jpg'
+    img: 'https://m.media-amazon.com/images/M/MV5BMzdiMWI4OGMtZDc2MC00NDllLTgyMWUtN2ZmZjVlYWFkYjQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'The Powerpuff Girls',
-    abbreviation: 'PPG',
     mainCharacters: [
       { name: 'Blossom', voiceBy: 'Cathy Cavadini' },
       { name: 'Bubbles', voiceBy: 'Tara Strong' },
@@ -98,78 +93,10 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 6,
     firstAired: 1998,
-    img: 'https://upload.wikimedia.org/wikipedia/en/7/7b/Powerpuff_girls_characters.jpg'
-  },
-  {
-    title: 'SpongeBob SquarePants',
-    abbreviation: 'SBSP',
-    mainCharacters: [
-      {
-        name: 'SpongeBob SquarePants',
-        voiceBy: 'Tom Kenny',
-        role: 'Protagonist'
-      },
-      { name: 'Patrick Star', voiceBy: 'Bill Fagerbakke', role: 'Best Friend' },
-      {
-        name: 'Squidward Tentacles',
-        voiceBy: 'Rodger Bumpass',
-        role: 'Neighbor & Coworker'
-      },
-      {
-        name: 'Mr. Krabs',
-        voiceBy: 'Clancy Brown',
-        role: 'Boss & Restaurant Owner'
-      }
-    ],
-    supportingCharacters: [
-      {
-        name: 'Sandy Cheeks',
-        voiceBy: 'Carolyn Lawrence',
-        role: 'Scientist & Friend'
-      },
-      { name: 'Plankton', voiceBy: 'Mr. Lawrence', role: 'Antagonist & Rival' }
-    ],
-    genre: ['Comedy', 'Adventure', 'Fantasy'],
-    runTime: { perEpisode: 11, perSeason: 'Varies' },
-    creator: 'Stephen Hillenburg',
-    distributor: 'Paramount Global Distribution',
-    seasons: 14,
-    episodes: {
-      total: 300,
-      notableEpisodes: [
-        { title: 'Band Geeks', season: 2, episode: 15 },
-        { title: 'Chocolate with Nuts', season: 3, episode: 12 }
-      ]
-    },
-    broadcast: {
-      originalNetwork: 'Nickelodeon',
-      firstAired: 'May 1, 1999',
-      lastAired: 'Ongoing',
-      reruns: ['NickToons', 'Netflix', 'Paramount+']
-    },
-    awards: [
-      {
-        title: 'Annie Award',
-        year: 2005,
-        category: 'Best Animated Television Production'
-      },
-      { title: 'Kids Choice Award', year: 2010, category: 'Favorite Cartoon' }
-    ],
-    themeSong: {
-      title: 'SpongeBob SquarePants Theme',
-      composer:
-        'Derek Drymon, Mark Harrison, Stephen Hillenburg, and Blaise Smith',
-      performedBy: 'Patrick Pinney'
-    },
-    spinOffs: [
-      { title: 'The Patrick Star Show', year: 2021 },
-      { title: 'Kamp Koral', year: 2021 }
-    ],
-    img: 'https://upload.wikimedia.org/wikipedia/en/5/5c/SpongeBob_SquarePants_character.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BNWMyNWY2M2QtNDNjNS00YzY3LWJkMWYtMzdhNmE4OGRhZTBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Rugrats',
-    abbreviation: 'RGRTS',
     mainCharacters: [
       {
         name: 'Tommy Pickles',
@@ -219,11 +146,10 @@ const shows = [
       { title: 'All Grown Up!', year: 2003 },
       { title: 'Rugrats (2021 Reboot)', year: 2021 }
     ],
-    img: 'https://upload.wikimedia.org/wikipedia/en/8/89/Rugrats_logo.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BOTkwZWRjZjktMDQyMy00MjljLWIzMmMtMjc2OTNiNGY2YzkzXkEyXkFqcGc@._V1_.jpg'
   },
   {
     title: 'CatDog',
-    abbreviation: 'CD',
     mainCharacters: [
       {
         name: 'Cat',
@@ -245,11 +171,10 @@ const shows = [
       firstAired: 'April 4, 1998',
       lastAired: 'June 15, 2005'
     },
-    img: 'https://upload.wikimedia.org/wikipedia/en/3/3e/CatDog_logo.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BZDIzNWIyZjItMzFkNS00M2NhLWFkMzAtNmYxYjZjMjAxYTY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'The Grim Adventures of Billy & Mandy',
-    abbreviation: 'GAOBM',
     mainCharacters: [
       {
         name: 'Billy',
@@ -272,11 +197,10 @@ const shows = [
       firstAired: 'August 24, 2001',
       lastAired: 'October 12, 2008'
     },
-    img: 'https://upload.wikimedia.org/wikipedia/en/7/79/The_Grim_Adventures_of_Billy_%26_Mandy_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BN2FjZmVkNDEtNzQ5My00MDkyLTg0Y2ItYjhkOWJhNGVhYjJiXkEyXkFqcGc@._V1_.jpg'
   },
   {
     title: 'Scooby-Doo, Where Are You!',
-    abbreviation: 'SDWAY',
     mainCharacters: [
       {
         name: 'Scooby-Doo',
@@ -313,11 +237,10 @@ const shows = [
       firstAired: 'September 13, 1969',
       lastAired: 'October 31, 1970'
     },
-    img: 'https://upload.wikimedia.org/wikipedia/en/9/92/Scooby_doo_where_are_you_title_card.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BNTBhODQ2ZjEtMDMzMS00ZjlkLWI2YWItMmQ3MWNjN2U3ODczXkEyXkFqcGc@._V1_.jpg'
   },
   {
     title: 'Dexter’s Laboratory',
-    abbreviation: 'Dexter’s Lab',
     mainCharacters: [
       { name: 'Dexter', voiceBy: 'Christine Cavanaugh/Candi Milo' },
       { name: 'Dee Dee', voiceBy: 'Kath Soucie' },
@@ -331,11 +254,10 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 4,
     firstAired: 1996,
-    img: 'https://upload.wikimedia.org/wikipedia/en/2/2f/Dexter%27s_Laboratory_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BYmE4ZmI4YzMtYTU4My00YTRiLWIzOGEtOWEzNWYxM2NjYzgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Johnny Bravo',
-    abbreviation: 'JB',
     mainCharacters: [
       { name: 'Johnny Bravo', voiceBy: 'Jeff Bennett' },
       { name: 'Little Suzy', voiceBy: 'Mae Whitman' },
@@ -348,11 +270,10 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 4,
     firstAired: 1997,
-    img: 'https://upload.wikimedia.org/wikipedia/en/4/4b/Johnny_Bravo_Intertitle.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BNWE2MjYwZGUtZGJlNS00MWZkLTg1OGQtNzI4YzQ3ZmYxZmY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'The Fairly OddParents',
-    abbreviation: 'FOP',
     mainCharacters: [
       { name: 'Timmy Turner', voiceBy: 'Tara Strong' },
       { name: 'Cosmo', voiceBy: 'Daran Norris' },
@@ -366,11 +287,10 @@ const shows = [
     distributor: 'Paramount Global Distribution',
     seasons: 10,
     firstAired: 2001,
-    img: 'https://upload.wikimedia.org/wikipedia/en/6/65/The_Fairly_OddParents_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BY2RlNWMwZmUtMjM4MC00MDczLTk3NjktYTg2OTNiNThhNmNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Teen Titans',
-    abbreviation: 'TT',
     mainCharacters: [
       { name: 'Robin', voiceBy: 'Scott Menville' },
       { name: 'Starfire', voiceBy: 'Hynden Walch' },
@@ -385,11 +305,10 @@ const shows = [
     distributor: 'Warner Bros. Television Distribution',
     seasons: 5,
     firstAired: 2003,
-    img: 'https://upload.wikimedia.org/wikipedia/en/2/24/Teen_Titans_Title_Card.jpg'
+    img: 'https://m.media-amazon.com/images/M/MV5BOTg3NzY2MDQtMjUxNS00N2Q3LTkxODktMmU1NzdjZTNkMzQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Avatar: The Last Airbender',
-    abbreviation: 'ATLA',
     mainCharacters: [
       { name: 'Aang', voiceBy: 'Zach Tyler Eisen' },
       { name: 'Katara', voiceBy: 'Mae Whitman' },
@@ -408,11 +327,10 @@ const shows = [
     distributor: 'Paramount Global Distribution',
     seasons: 3,
     firstAired: 2005,
-    img: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Avatar_The_Last_Airbender_logo.svg/800px-Avatar_The_Last_Airbender_logo.svg.png'
+    img: 'https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/1000011028.jpg'
   },
   {
     title: "That's So Raven",
-    abbreviation: 'TSR',
     mainCharacters: [
       { name: 'Raven Baxter', voiceBy: 'Raven-Symoné' },
       { name: 'Chelsea Daniels', voiceBy: 'Anneliese van der Pol' },
@@ -425,28 +343,10 @@ const shows = [
     distributor: 'Disney-ABC Domestic Television',
     seasons: 4,
     firstAired: 2003,
-    img: 'https://upload.wikimedia.org/wikipedia/en/5/5c/That%27s_So_Raven_title_card.jpg'
-  },
-  {
-    title: 'The Fairly OddParents',
-    abbreviation: 'FOP',
-    mainCharacters: [
-      { name: 'Timmy Turner', voiceBy: 'Tara Strong' },
-      { name: 'Cosmo', voiceBy: 'Daran Norris' },
-      { name: 'Wanda', voiceBy: 'Susanne Blakeslee' },
-      { name: 'Vicky', voiceBy: 'Grey DeLisle' }
-    ],
-    genre: ['Comedy', 'Fantasy', 'Adventure'],
-    runTime: 22,
-    creator: 'Butch Hartman',
-    distributor: 'Nickelodeon',
-    seasons: 10,
-    firstAired: 2001,
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a9/Fairly_OddParents_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BZTlkNDUxOTgtNWY3My00NjI2LWJlMWUtNzRlZTI1MDcyYjNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Kim Possible',
-    abbreviation: 'KP',
     mainCharacters: [
       { name: 'Kim Possible', voiceBy: 'Christy Carlson Romano' },
       { name: 'Ron Stoppable', voiceBy: 'Will Friedle' },
@@ -459,7 +359,7 @@ const shows = [
     distributor: 'Disney Channel',
     seasons: 4,
     firstAired: 2002,
-    img: 'https://upload.wikimedia.org/wikipedia/en/c/c7/Kim_Possible_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BMmIwNjQ5MzEtNTg4Zi00NWMyLThkZDktZDg0MGU4MmYzMjlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Danny Phantom',
@@ -476,25 +376,7 @@ const shows = [
     distributor: 'Nickelodeon',
     seasons: 3,
     firstAired: 2004,
-    img: 'https://upload.wikimedia.org/wikipedia/en/3/3d/Danny_Phantom_logo.png'
-  },
-  {
-    title: 'Teen Titans',
-    abbreviation: 'TT',
-    mainCharacters: [
-      { name: 'Robin', voiceBy: 'Scott Menville' },
-      { name: 'Starfire', voiceBy: 'Hynden Walch' },
-      { name: 'Beast Boy', voiceBy: 'Greg Cipes' },
-      { name: 'Raven', voiceBy: 'Tara Strong' },
-      { name: 'Cyborg', voiceBy: 'Khary Payton' }
-    ],
-    genre: ['Action', 'Superhero', 'Comedy'],
-    runTime: 22,
-    creator: ['David Slack'],
-    distributor: 'Warner Bros. Television Distribution',
-    seasons: 5,
-    firstAired: 2003,
-    img: 'https://upload.wikimedia.org/wikipedia/en/2/22/Teen_Titans_Title_Card.jpg'
+    img: 'https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/pbuofbmzlaixzjdjqp7d3qzrd4w_5.jpg'
   },
   {
     title: 'Zoey 101',
@@ -511,7 +393,7 @@ const shows = [
     distributor: 'Nickelodeon',
     seasons: 4,
     firstAired: 2005,
-    img: 'https://upload.wikimedia.org/wikipedia/en/b/b0/Zoey_101_logo.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BNTM4NzQ5ZWEtMGQxNC00OGU0LTliZjItYjZlZGE0ZDQ2ZWI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'The Proud Family',
@@ -528,7 +410,7 @@ const shows = [
     distributor: 'Disney Channel',
     seasons: 2,
     firstAired: 2001,
-    img: 'https://upload.wikimedia.org/wikipedia/en/5/5e/The_Proud_Family_logo.svg'
+    img: 'https://m.media-amazon.com/images/M/MV5BMTRjYzdmYjctYTJjMy00MGVjLWFkZTItNGUxNGZmYzRmOWYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Lilo & Stitch: The Series',
@@ -545,7 +427,7 @@ const shows = [
     distributor: 'Disney Channel',
     seasons: 2,
     firstAired: 2003,
-    img: 'https://upload.wikimedia.org/wikipedia/en/1/1a/Lilo_%26_Stitch-_The_Series_logo.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BNTlkMDFjYzAtY2VkMy00OTk5LWFiOTUtZGZkMmRlNzA3Yzg3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'Hey Arnold!',
@@ -562,7 +444,7 @@ const shows = [
     distributor: 'Nickelodeon',
     seasons: 5,
     firstAired: 1996,
-    img: 'https://upload.wikimedia.org/wikipedia/en/5/5a/Hey_Arnold%21_logo.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BYzhiYTYwM2QtNTlmNy00MGM1LTllM2UtOGJmZTUxMmJmZjdiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
     title: 'American Dragon: Jake Long',
@@ -579,7 +461,7 @@ const shows = [
     distributor: 'Disney Channel',
     seasons: 2,
     firstAired: 2005,
-    img: 'https://upload.wikimedia.org/wikipedia/en/1/17/American_Dragon_Jake_Long_logo.png'
+    img: 'https://m.media-amazon.com/images/M/MV5BZGI1NDE3MDItODU4ZC00Yjc2LWE4NzctMDI0MTE3Y2JiOGYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   }
 ]
 
