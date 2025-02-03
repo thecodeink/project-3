@@ -121,7 +121,7 @@ const shows = [
       }
     ],
     genre: ['Comedy', 'Adventure', 'Family'],
-    runTime: { perEpisode: 22, perSeason: 'Varies' },
+    runTime: 22,
     creator: ['Arlene Klasky', 'Gábor Csupó', 'Paul Germain'],
     distributor: 'Paramount Global Distribution',
     seasons: 9,
@@ -135,12 +135,7 @@ const shows = [
     broadcast: {
       originalNetwork: 'Nickelodeon',
       firstAired: 'August 11, 1991',
-      lastAired: 'August 1, 2004',
-      reruns: ['NickToons', 'Netflix', 'Paramount+']
-    },
-    themeSong: {
-      title: 'Rugrats Theme',
-      composer: 'Mark Mothersbaugh'
+      lastAired: 'August 1, 2004'
     },
     spinOffs: [
       { title: 'All Grown Up!', year: 2003 },
@@ -362,21 +357,58 @@ const shows = [
     img: 'https://m.media-amazon.com/images/M/MV5BMmIwNjQ5MzEtNTg4Zi00NWMyLThkZDktZDg0MGU4MmYzMjlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
-    title: 'Danny Phantom',
-    abbreviation: 'DP',
+    title: 'Lizzie McGuire',
     mainCharacters: [
-      { name: 'Danny Fenton', voiceBy: 'David Kaufman' },
-      { name: 'Sam Manson', voiceBy: 'Grey DeLisle' },
-      { name: 'Tucker Foley', voiceBy: "Rickey D'Shon Collins" },
-      { name: 'Vlad Plasmius', voiceBy: 'Martin Mull' }
+      {
+        name: 'Lizzie McGuire',
+        voiceBy: 'Hilary Duff',
+        role: 'Teen Navigating Middle School Life'
+      },
+      {
+        name: 'Gordo (David Gordon)',
+        voiceBy: 'Adam Lamberg',
+        role: 'Lizzie’s Smart and Sarcastic Best Friend'
+      },
+      {
+        name: 'Miranda Sanchez',
+        voiceBy: 'Lalaine',
+        role: 'Lizzie’s Other Best Friend'
+      },
+      {
+        name: 'Matt McGuire',
+        voiceBy: 'Jake Thomas',
+        role: 'Lizzie’s Mischievous Younger Brother'
+      },
+      {
+        name: 'Jo McGuire',
+        voiceBy: 'Hallie Todd',
+        role: 'Lizzie’s Caring but Overprotective Mother'
+      },
+      {
+        name: 'Sam McGuire',
+        voiceBy: 'Robert Carradine',
+        role: 'Lizzie’s Goofy and Supportive Father'
+      }
     ],
-    genre: ['Action', 'Adventure', 'Supernatural'],
+    genre: ['Comedy', 'Teen', 'Family'],
     runTime: 22,
-    creator: 'Butch Hartman',
-    distributor: 'Nickelodeon',
-    seasons: 3,
-    firstAired: 2004,
-    img: 'https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/pbuofbmzlaixzjdjqp7d3qzrd4w_5.jpg'
+    creator: ['Terri Minsky'],
+    distributor: 'Disney–ABC Domestic Television',
+    seasons: 2,
+    episodes: {
+      total: 65,
+      notableEpisodes: [
+        { title: 'Rumors', season: 1, episode: 1 },
+        { title: 'Clue-Less', season: 2, episode: 24 }
+      ]
+    },
+    broadcast: {
+      originalNetwork: 'Disney Channel',
+      firstAired: 'January 12, 2001',
+      lastAired: 'February 14, 2004'
+    },
+    spinOffs: [{ title: 'The Lizzie McGuire Movie', year: 2003 }],
+    img: 'https://m.media-amazon.com/images/M/MV5BMGY1Y2U3ZGItZGQyYS00N2Q5LTk5YzktZGEwMmJmZmNjYTJjXkEyXkFqcGc@._V1_.jpg'
   },
   {
     title: 'Zoey 101',
@@ -447,21 +479,217 @@ const shows = [
     img: 'https://m.media-amazon.com/images/M/MV5BYzhiYTYwM2QtNTlmNy00MGM1LTllM2UtOGJmZTUxMmJmZjdiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
   },
   {
-    title: 'American Dragon: Jake Long',
-    abbreviation: 'ADJL',
+    title: 'Foster’s Home for Imaginary Friends',
     mainCharacters: [
-      { name: 'Jake Long', voiceBy: 'Dante Basco' },
-      { name: 'Haley Long', voiceBy: 'Amy Bruckner' },
-      { name: 'Grandpa Lao Shi', voiceBy: 'Keone Young' },
-      { name: 'Trixie Carter', voiceBy: 'Miss Kittie' }
+      {
+        name: 'Mac',
+        voiceBy: 'Sean Marquette',
+        role: 'Kind and Creative Boy Who Created Bloo'
+      },
+      {
+        name: 'Bloo (Blooregard Q. Kazoo)',
+        voiceBy: 'Keith Ferguson',
+        role: 'Mac’s Mischievous and Self-Centered Imaginary Friend'
+      },
+      {
+        name: 'Frankie Foster',
+        voiceBy: 'Grey DeLisle',
+        role: 'Caring and Overworked Caretaker at Foster’s'
+      },
+      {
+        name: 'Madame Foster',
+        voiceBy: 'Candi Milo',
+        role: 'Quirky and Energetic Founder of Foster’s Home'
+      },
+      {
+        name: 'Mr. Herriman',
+        voiceBy: 'Tom Kane',
+        role: 'Strict and Proper House Manager (A Giant Rabbit)'
+      },
+      {
+        name: 'Wilt',
+        voiceBy: 'Phil LaMarr',
+        role: 'Friendly and Polite One-Armed Imaginary Friend'
+      },
+      {
+        name: 'Eduardo',
+        voiceBy: 'Tom Kenny',
+        role: 'Large but Gentle and Timid Monster-Like Friend'
+      },
+      {
+        name: 'Coco',
+        voiceBy: 'Candi Milo',
+        role: 'Bird-Plane Hybrid Who Only Says "Coco"'
+      }
     ],
-    genre: ['Action', 'Comedy', 'Fantasy'],
+    genre: ['Comedy', 'Fantasy', 'Family'],
     runTime: 22,
-    creator: 'Jeff Goode',
-    distributor: 'Disney Channel',
-    seasons: 2,
-    firstAired: 2005,
-    img: 'https://m.media-amazon.com/images/M/MV5BZGI1NDE3MDItODU4ZC00Yjc2LWE4NzctMDI0MTE3Y2JiOGYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
+    creator: ['Craig McCracken'],
+    distributor: 'Warner Bros. Television Distribution',
+    seasons: 6,
+    episodes: {
+      total: 79,
+      notableEpisodes: [
+        { title: 'House of Bloo’s', season: 1, episode: 1 },
+        { title: 'Mac Daddy', season: 4, episode: 5 }
+      ]
+    },
+    broadcast: {
+      originalNetwork: 'Cartoon Network',
+      firstAired: 'August 13, 2004',
+      lastAired: 'May 3, 2009'
+    },
+    spinOffs: [],
+    img: 'https://m.media-amazon.com/images/M/MV5BNzAwYzRkN2UtNDcxYS00MmFlLTlkMzItZWU2ZjI2NzJhZGMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
+  },
+  {
+    title: 'Hannah Montana',
+    mainCharacters: [
+      {
+        name: 'Miley Stewart / Hannah Montana',
+        voiceBy: 'Miley Cyrus',
+        role: 'Teen Pop Star Living a Double Life'
+      },
+      {
+        name: 'Lilly Truscott',
+        voiceBy: 'Emily Osment',
+        role: 'Miley’s Best Friend'
+      },
+      {
+        name: 'Oliver Oken',
+        voiceBy: 'Mitchel Musso',
+        role: 'Miley’s Other Best Friend'
+      },
+      {
+        name: 'Robby Ray Stewart',
+        voiceBy: 'Billy Ray Cyrus',
+        role: 'Miley’s Father and Manager'
+      },
+      {
+        name: 'Jackson Stewart',
+        voiceBy: 'Jason Earles',
+        role: 'Miley’s Older Brother'
+      }
+    ],
+    genre: ['Comedy', 'Family', 'Music'],
+    runTime: 23,
+    creator: ['Michael Poryes', 'Rich Correll', 'Barry O’Brien'],
+    distributor: 'Disney–ABC Domestic Television',
+    seasons: 4,
+    episodes: {
+      total: 98,
+      notableEpisodes: [
+        { title: 'Miley Get Your Gum', season: 1, episode: 2 },
+        { title: 'He Could Be the One', season: 3, episode: 18 }
+      ]
+    },
+    broadcast: {
+      originalNetwork: 'Disney Channel',
+      firstAired: 'March 24, 2006',
+      lastAired: 'January 16, 2011'
+    },
+    spinOffs: [],
+    img: 'https://m.media-amazon.com/images/M/MV5BZTkzMDY2MzEtZmViZC00ZDY0LWFmYjgtNTVmN2JmMmVkNzRkXkEyXkFqcGc@._V1_.jpg'
+  },
+
+  {
+    title: 'The Suite Life of Zack & Cody',
+    mainCharacters: [
+      {
+        name: 'Zack Martin',
+        voiceBy: 'Dylan Sprouse',
+        role: 'Mischievous Twin Brother'
+      },
+      {
+        name: 'Cody Martin',
+        voiceBy: 'Cole Sprouse',
+        role: 'Smart and Responsible Twin'
+      },
+      {
+        name: 'London Tipton',
+        voiceBy: 'Brenda Song',
+        role: 'Spoiled Hotel Heiress'
+      },
+      {
+        name: 'Maddie Fitzpatrick',
+        voiceBy: 'Ashley Tisdale',
+        role: 'Candy Counter Girl and Zack’s Crush'
+      },
+      {
+        name: 'Mr. Moseby',
+        voiceBy: 'Phill Lewis',
+        role: 'Hotel Manager'
+      }
+    ],
+    genre: ['Comedy', 'Family'],
+    runTime: 22,
+    creator: ['Danny Kallis', 'Jim Geoghan'],
+    distributor: 'Disney–ABC Domestic Television',
+    seasons: 3,
+    episodes: {
+      total: 87,
+      notableEpisodes: [
+        { title: 'To Catch a Thief', season: 1, episode: 17 },
+        { title: 'The Ghost in Suite 613', season: 1, episode: 19 }
+      ]
+    },
+    broadcast: {
+      originalNetwork: 'Disney Channel',
+      firstAired: 'March 18, 2005',
+      lastAired: 'September 1, 2008'
+    },
+    spinOffs: [{ title: 'The Suite Life on Deck', year: 2008 }],
+    img: 'https://m.media-amazon.com/images/M/MV5BY2JkNzFmYWItMGI1Yi00OGU1LTg3NzUtM2M0NWFkOTFjZTI5XkEyXkFqcGc@._V1_.jpg'
+  },
+
+  {
+    title: 'Phineas and Ferb',
+    mainCharacters: [
+      {
+        name: 'Phineas Flynn',
+        voiceBy: 'Vincent Martella',
+        role: 'Creative and Enthusiastic Inventor'
+      },
+      {
+        name: 'Ferb Fletcher',
+        voiceBy: 'Thomas Brodie-Sangster',
+        role: 'Quiet but Talented Stepbrother'
+      },
+      {
+        name: 'Candace Flynn',
+        voiceBy: 'Ashley Tisdale',
+        role: 'Phineas and Ferb’s Older Sister'
+      },
+      {
+        name: 'Dr. Heinz Doofenshmirtz',
+        voiceBy: 'Dan Povenmire',
+        role: 'Evil Scientist and Perry’s Nemesis'
+      },
+      {
+        name: 'Perry the Platypus',
+        voiceBy: 'Dee Bradley Baker',
+        role: 'Secret Agent Pet Platypus'
+      }
+    ],
+    genre: ['Comedy', 'Adventure', 'Musical'],
+    runTime: 22,
+    creator: ['Dan Povenmire', 'Jeff "Swampy" Marsh'],
+    distributor: 'Disney–ABC Domestic Television',
+    seasons: 4,
+    episodes: {
+      total: 129,
+      notableEpisodes: [
+        { title: 'Rollercoaster', season: 1, episode: 1 },
+        { title: 'Phineas and Ferb’s Quantum Boogaloo', season: 2, episode: 25 }
+      ]
+    },
+    broadcast: {
+      originalNetwork: 'Disney Channel',
+      firstAired: 'August 17, 2007',
+      lastAired: 'June 12, 2015'
+    },
+    spinOffs: [{ title: 'Milo Murphy’s Law', year: 2016 }],
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8KMRGuCnsgAumyll6babrdU27sIz3uf3ZA&s'
   }
 ]
 
