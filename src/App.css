@@ -29,7 +29,7 @@ body {
 }
 
 .image-photo {
-  width: 200px;
+  width: 178px;
 }
 
 .title-container {
@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 100px;
+  margin: 80px;
 }
 
 .nav-container {
@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  background-color: rgb(0, 255, 42);
+  background-color: rgb(3, 255, 45);
   width: 100%;
 }
 
@@ -64,35 +64,34 @@ body {
   color: black;
 }
 
-.about-me {
+.categories:hover {
   color: red;
+  cursor: pointer;
+}
+
+.about-me {
   display: flex;
   justify-items: right;
   align-items: end;
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .main {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
-  padding: 100px;
-  justify-content: center;
+  padding: 20px;
 }
 
 .show {
   background-color: white;
-  padding: 15px;
-  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  padding: 20px;
+  border-radius: 15px;
   text-align: center;
-  box-shadow: 0px 2px 8px rgb(0, 0, 0);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }

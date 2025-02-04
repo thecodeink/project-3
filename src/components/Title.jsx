@@ -1,6 +1,6 @@
 const Title = () => {
   return (
-    <header className="flex-center">
+    <header className="">
       <h1 className="title-container">MY TOP FAV ✨NOSTALGIC✨ TV SHOWS</h1>
     </header>
   )
