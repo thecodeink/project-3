@@ -2,7 +2,6 @@ import shows from '../data'
 import Shows from './Shows'
 
 const MainContent = () => {
-  console.log(shows)
   return (
     <div className="main flex-center">
       {shows.map((show, index) => (
