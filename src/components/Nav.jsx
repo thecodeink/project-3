@@ -1,11 +1,12 @@
 const Nav = () => {
   return (
-    <nav className="nav-container flex-center">
+    <nav className="nav-container">
       <section className="nav">
-        <div className="catorgories">Home</div>
-        <div className="catorgories">About</div>
-        <div className="catorgories">Products</div>
+        <div className="categories">CHARACTERS</div>
+        <div className="categories">QUOTES</div>
+        <div className="categories">ART GALLERY</div>
       </section>
+      <div className="categories about-me">ABOUT ME</div>
     </nav>
   )
 }

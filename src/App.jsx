@@ -1,13 +1,13 @@
 import './App.css'
 import Nav from './components/Nav.jsx'
-import SideBar from './components/SideBar.jsx'
 import MainContent from './components/MainContent.jsx'
+import Title from './components/Title.jsx'
 
 const App = () => {
   return (
     <div className="app-container">
       <Nav />
-      <SideBar />
+      <Title />
       <MainContent />
     </div>
   )
