@@ -1,6 +1,6 @@
 const Shows = ({ show }) => {
   return (
-    <div className="show flex-containers">
+    <div className="show flex-center">
       <img className="image-photo" src={show.img} alt="" />
       <div className="show-info">
         <h5>{show.title}</h5>

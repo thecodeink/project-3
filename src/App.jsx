@@ -5,7 +5,7 @@ import MainContent from './components/MainContent.jsx'
 
 const App = () => {
   return (
-    <div>
+    <div className="app-container">
       <Nav />
       <SideBar />
       <MainContent />
